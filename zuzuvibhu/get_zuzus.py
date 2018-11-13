@@ -1,5 +1,5 @@
 import random
-from flask import Flask, jsonify
+from flask import Flask, jsonify, make_response
 
 app = Flask(__name__)
 
@@ -15,12 +15,14 @@ def return_zuzu():
 
 @app.route("/")
 def hello():
-	return_zuzu()
+	rtrned = return_zuzu()
+	return rtrned
 
 @app.route("/api")
 def api():
 	api_return = {"zuzu_text":return_zuzu()}
-	return jsonify(api_return)
+	api_ret = make_response(jsonify(api_return), 200)
+	return api_ret
 
 if __name__ == '__main__':
 	app.run()
