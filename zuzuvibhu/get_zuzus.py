@@ -24,5 +24,8 @@ def api():
 	api_ret = make_response(jsonify(api_return), 200)
 	return api_ret
 
-if __name__ == '__main__':
+def get_zuzus():
 	app.run()
+
+if __name__ == '__main__':
+	get_zuzus()
