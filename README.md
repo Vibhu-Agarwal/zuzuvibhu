@@ -2,7 +2,7 @@
 
 The module provides the zuzu package for Vibhu Agarwal.\
 Zuzu is a unique language defined by Vibhu Agarwal himself.\
-The language is in no way related to other standard languages understood in public which is not specifically defined by Vibhu Agarwal.\
+The language is in no way related to other standard languages understood in public which is not specifically defined by Vibhu Agarwal.
 
 Happy Go Zuzus!
 
