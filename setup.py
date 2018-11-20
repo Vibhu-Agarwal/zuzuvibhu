@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="zuzuvibhu",
-    version="1.0.3",
+    version="1.0.4",
     author="Vibhu Agarwal",
     author_email="vibhu4agarwal@gmail.com",
     description="Zuzu Package of Vibhu Agarwal",
